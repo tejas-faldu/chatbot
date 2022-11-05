@@ -1,7 +1,7 @@
 
 const express = require('express');
 const app = express();
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }));
 
 //current time data
 
